@@ -1,23 +1,20 @@
 import React from 'react'
 import * as Icon from 'react-feather'
+import '../styles/Header/Header.css'
 const Header = () => {
   return (
-    <div>
-        <h1>Logo</h1>
-        <ul>
-            <li>
-                listItem1
-            </li>
-            <li>
-                listItem2
-            </li>
-            <li>
-                listItem3
-            </li>
-        </ul>
-        <div>
-            <Icon.List size={20}/>
+    <div className='header'>
+        <h1 className='header__logo'>Logo</h1>
+        <input className='header_search'></input>
+        
+        <div className='header__list d-flex'>
+            
+            <Icon.User size={25}/>
+          
+            <Icon.List size={25}/>
+
         </div>
+    
     </div>
   )
 }
