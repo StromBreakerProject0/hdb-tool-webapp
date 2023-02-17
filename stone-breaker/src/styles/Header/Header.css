@@ -12,3 +12,10 @@
     width: auto;
     margin-left: -50%;
 }
+.header__logo_link{
+    text-decoration: none;
+    color: white;
+}
+.header__logo_link:hover{
+    color: white;
+}
