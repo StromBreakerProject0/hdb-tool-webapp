@@ -1,0 +1,30 @@
+.side-menu-container {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #e9d9d9;
+    color: #0c0202;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(5, 2, 2);
+  }
+  
+  .menu-item:hover {
+    background-color: #eeeeee;
+    color: #333;
+  }
+  
