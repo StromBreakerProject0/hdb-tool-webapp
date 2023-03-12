@@ -9,8 +9,13 @@ const Content = () => {
         <Link to="/normal-tool" className="cursor-pointer">
             <NormalHddTool/>
         </Link>
+        <Link to="/medium-tool" className="cursor-pointer">
         <NormalHddTool/>
+        </Link>
+        <Link to="/medium-tool" className="cursor-pointer">
+
         <NormalHddTool/>
+        </Link>
     </div>
   )
 }

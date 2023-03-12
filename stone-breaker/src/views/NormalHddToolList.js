@@ -1,19 +1,24 @@
 import React from 'react'
 import Header from '../components/Header'
 import NormalHddTool from './NormalHddTool'
+import '../styles/Product/productlist.css'
 
-const NormalHddToolList = () => {
+const NormalHddToolList = (props) => {
   return (
-    <div>
-        <Header/>
-        <NormalHddTool/>
-        <NormalHddTool/>
-        <NormalHddTool/>
-        <NormalHddTool/>
-        <NormalHddTool/>
-        <NormalHddTool/>
-
+    <div className='product_list__page'>
+      <Header />
+      <div className='product_list'>
+        <div className='product_item'>
+        <NormalHddTool />
         </div>
+        <div className='product_item'>
+        <NormalHddTool />
+        </div>
+        <div className='product_item'>
+        <NormalHddTool />
+        </div>
+      </div>
+    </div>
   )
 }
 

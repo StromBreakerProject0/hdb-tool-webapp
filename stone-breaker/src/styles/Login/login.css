@@ -1,0 +1,28 @@
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+.login_form__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_form__form{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login_form__input{
+    width: 200px;
+}
+.login_form__links{
+    display: flex;
+    justify-content: space-between;
+}

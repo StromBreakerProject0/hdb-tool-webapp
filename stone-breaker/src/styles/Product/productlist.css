@@ -1,0 +1,18 @@
+.product_list__page {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.product_list{
+    display: flex;
+    flex-direction: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.product_item {
+    margin: 15px;
+    float: left;
+}
